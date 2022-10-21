@@ -98,6 +98,7 @@ class MainGUI(QtWidgets.QWidget):
         group_layout.addLayout(title_layout)
         group_layout.addLayout(selector_char_layout)
         group_layout.addLayout(no_page_layout)
+        group_layout.addStretch()
 
         self.basic_info_box.setLayout(group_layout)
 
