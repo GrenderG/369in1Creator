@@ -2,7 +2,7 @@
 
 # 369 in 1 Creator
 Small (ugly but functional) utility to build a multiboot rom to flash in 369 in 1 bootleg cartridges. Specifically these ones (it will also work in Zelda 7 in 1 cartridges but keep in mind they have half of the flash size, so they can't fit 256 MB like the 369 in 1 ones): 
-<img src="https://raw.githubusercontent.com/GrenderG/369in1Creator/master/etc/images/369in1.png" width=25% height=25%>
+<br><img src="https://raw.githubusercontent.com/GrenderG/369in1Creator/master/etc/images/369in1.png" width=25% height=25%>
 
 ## Screenshots
 
