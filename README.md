@@ -7,6 +7,7 @@ Small (ugly but functional) utility to build a multiboot rom to flash in 369 in 
 ## Screenshots
 
 ![Tool screenshot](https://raw.githubusercontent.com/GrenderG/369in1Creator/master/etc/images/screenshot.png)
+![Menu screenshot](https://raw.githubusercontent.com/GrenderG/369in1Creator/master/etc/images/screenshot2.png)
 
 ## Installation
 You need `Python 3.7+` to run it. It uses Qt6. Simply install the `requirements.txt` and run `main.py`.
