@@ -1,0 +1,11 @@
+**.pyc
+
+# IDE configuration files
+.idea
+.vscode
+
+# virtualenv folder
+venv
+
+# python win libs
+**.pyd
