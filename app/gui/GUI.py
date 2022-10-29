@@ -18,7 +18,7 @@ class FinishDialog(QtWidgets.QDialog):
         self.buttonBox.accepted.connect(self.accept)
 
         self.layout = QtWidgets.QVBoxLayout()
-        message = QtWidgets.QLabel('Finished writing the merged ROM, the program will now close.')
+        message = QtWidgets.QLabel('Finished writing the merged ROM.')
         self.layout.addWidget(message)
         self.layout.addWidget(self.buttonBox)
         self.layout.setSizeConstraint(QtWidgets.QLayout.SetFixedSize)
@@ -31,7 +31,8 @@ class FinishDialog(QtWidgets.QDialog):
 
     # override
     def closeEvent(self, event) -> None:
-        sys.exit(0)
+        # sys.exit(0)
+        pass
 
 
 class MainGUI(QtWidgets.QWidget):
@@ -155,7 +156,8 @@ class MainGUI(QtWidgets.QWidget):
 
         finish_dialog = FinishDialog()
         if finish_dialog.exec_():
-            sys.exit(0)
+            # sys.exit(0)
+            pass
 
     def _add_rom(self, path):
         if not path.strip():
